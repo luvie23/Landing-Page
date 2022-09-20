@@ -1,22 +1,37 @@
 .top-container{
     display: flex;
+    
+
 }
 
 .top-left{
     display: flex;
-    background-color: #1F2937;
+
     width: 300px;
     flex-direction: column;
     border: 3px solid red;
     
 }
-.awesome{
+.top-right{
+    display: flex;
+    width: 500px;
+    border: 3px solid red;
+    height: fit-content;
+    margin-left: auto;
+    flex-wrap: wrap;
+
+}
+
+.below-top-right{
     display: flex;
     background-color: #1F2937;
-    width: 300px;
-    flex-direction: column;
+    width: 500px;
     border: 3px solid red;
+    height: fit-content;
+    align-items: flex-end;
 }
+
+
 * {
     font-family: 'Roboto';
 }
@@ -33,7 +48,7 @@ body {
     margin: 10px;
     font-size: 18px;
     color: #E5E7EB;
-    align-self: center;
+
     
 }
 
@@ -41,9 +56,31 @@ body {
 .header-logo{
     font-size: 24px;
     color: #F9FAF8;
-    margin: 0 0 0 0;
+    margin: 0 0 80px 0;
+    align-self: flex-start;
 }
 
 #big-words{
     font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#small-words {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#signup-button {
+    background-color: #3882f6;
+    padding: 10px 30px;
+    color: #E5E7EB;
+    width: fit-content;
+    justify-self: right;
+    border-radius: 10px;
+}
+
+#dog{
+    height: auto;
+    width: 300px;
 }

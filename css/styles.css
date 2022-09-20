@@ -1,0 +1,49 @@
+.top-container{
+    display: flex;
+}
+
+.top-left{
+    display: flex;
+    background-color: #1F2937;
+    width: 300px;
+    flex-direction: column;
+    border: 3px solid red;
+    
+}
+.awesome{
+    display: flex;
+    background-color: #1F2937;
+    width: 300px;
+    flex-direction: column;
+    border: 3px solid red;
+}
+* {
+    font-family: 'Roboto';
+}
+body {
+    
+    min-height: 100vh;
+    max-width: 1000px;
+    padding: 0 100px 0 100px;
+    background-color: #1F2937;
+    border: 3px solid red;
+}
+
+.header-item {
+    margin: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+    align-self: center;
+    
+}
+
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0 0 0 0;
+}
+
+#big-words{
+    font-size: 48px;
+}

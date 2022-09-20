@@ -159,7 +159,7 @@ body {
     background-color: white;
     align-content: center;
     align-items: center;
-    height: 400px;
+    height: 250px;
     margin-bottom: 0;
 
 }
@@ -202,4 +202,12 @@ body {
     width: 120px;
     justify-content: center;
     border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    color: #E5E7EB;
+    height: 50px;
+    align-content:space-around;
 }

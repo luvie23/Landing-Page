@@ -202,6 +202,7 @@ body {
     width: 120px;
     justify-content: center;
     border-radius: 5px;
+    color: #E5E7EB;
 }
 
 .footer {
@@ -210,4 +211,9 @@ body {
     color: #E5E7EB;
     height: 50px;
     align-content:space-around;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
 }
